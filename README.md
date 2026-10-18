@@ -4,6 +4,10 @@ HarEvent is a modern wedding and event planning marketplace built with React and
 
 The project is designed as a polished, responsive landing and browsing experience with category pages, vendor discovery, blog content, FAQ sections, and WhatsApp-based inquiry flows.
 
+## Preview
+
+![HarEvent website preview](public/image.png)
+
 ## Features
 
 - Elegant wedding/event landing page with premium branding
@@ -80,15 +84,7 @@ cd HarEvent
 npm install
 ```
 
-3. Set up environment variables:
-
-```bash
-copy .env.example .env
-```
-
-Update `VITE_WHATSAPP_NUMBER` (country code followed by digits, without `+` or spaces) and `VITE_WHATSAPP_DISPLAY_NUMBER` in `.env` with the business WhatsApp number.
-
-4. Start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -123,7 +119,6 @@ This project is a frontend React app and can be deployed easily on platforms suc
 - The website includes direct WhatsApp enquiry buttons for customer and vendor interaction.
 - The app is intentionally designed for a wedding/event marketplace experience with a premium, luxury aesthetic.
 - The project currently does not include a backend or database; it is a frontend-focused experience.
-- Vite exposes variables prefixed with `VITE_` to the browser bundle. The WhatsApp number is public contact information, not a secret; do not put passwords, API secrets, or private credentials in these variables.
 
 ## License
 
