@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+/* =========================================================
+   HarEvent Custom Luxury Scrollbar Styling
+   ========================================================= */
+
+/* Webkit browsers (Chrome, Safari, Edge, Opera) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px; /* Horizontal scrollbars ke liye */
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track {
+  background: #FFFDF9; /* Cream backdrop color */
+  border-left: 1px solid #F0E8DD;
+}
+
+/* Scrollbar Thumb (Draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #9B1340 0%, #7E0E32 100%); /* Deep Maroon Gradient */
+  border-radius: 9999px; /* Rounded pill shape */
+  border: 2px solid #FFFDF9; /* Padding effect around thumb */
+  transition: all 0.3s ease;
+}
+
+/* Scrollbar Thumb Hover State */
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37; /* Soft Gold on Hover */
+  border: 1.5px solid #FFFDF9;
+}
+
+/* Firefox Scrollbar Styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9B1340 #FFFDF9;
+}
+
+/* Utility Class: Hide scrollbar in category filter pills */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
